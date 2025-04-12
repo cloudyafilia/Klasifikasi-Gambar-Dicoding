@@ -1,4 +1,4 @@
-# 👟 Klasifikasi Gambar Jenis Alas Kaki Menggunakan Deep Learning
+# Klasifikasi Gambar Jenis Alas Kaki Menggunakan Deep Learning
 
 ## 📝 Penjelasan Proyek
   Dataset yang digunakan adalah dataset Kaggle yang tersedia secara publik dan berisi gambar berbagai jenis alas kaki seperti sepatu, sandal, dan boot. Dataset ini dapat diakses melalui link berikut:
@@ -11,7 +11,7 @@
 - Sandal
 - Shoe
 
-  Model dilatih menggunakan dataset citra alas kaki yang telah melalui preprocessing seperti augmentasi, normalisasi, dan penskalaan ulang untuk meningkatkan performa serta generalisasi.
+Model dilatih menggunakan dataset citra alas kaki yang telah melalui preprocessing seperti augmentasi, normalisasi, dan penskalaan ulang untuk meningkatkan performa serta generalisasi.
 
 ---
 
