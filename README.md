@@ -1,21 +1,17 @@
-# 🩸 Klasifikasi Gambar Sel Darah Menggunakan Deep Learning
+# 👟 Klasifikasi Gambar Jenis Alas Kaki Menggunakan Deep Learning
 
 ## 📝 Penjelasan Proyek
-  Dataset yang digunakan adalah dataset Kaggle yang tersedia secara publik dan berisi gambar mikroskopik dari sel darah, dengan link sebahgai berikut.
-https://www.kaggle.com/datasets/unclesamulus/blood-cells-image-dataset 
+  Dataset yang digunakan adalah dataset Kaggle yang tersedia secara publik dan berisi gambar berbagai jenis alas kaki seperti sepatu, sandal, dan boot. Dataset ini dapat diakses melalui link berikut:
+[https://www.kaggle.com/datasets/hasibalmuzdadid/shoe-vs-sandal-vs-boot-dataset-15k-images]
 
-  Proyek ini mengimplementasikan model klasifikasi gambar untuk membedakan berbagai jenis sel darah menggunakan Convolutional Neural Networks (CNN) dengan TensorFlow dan Keras. Model dilatih menggunakan dataset gambar mikroskopis sel darah yang telah diberi label.
+  Proyek ini mengimplementasikan model klasifikasi gambar menggunakan arsitektur Convolutional Neural Networks (CNN) dengan TensorFlow dan Keras untuk mengidentifikasi jenis alas kaki berdasarkan gambar.
 
-  - neutrophil
-  - erythroblast
-  - ig
-  - eosinophil
-  - lymphocyte
-  - monocyte
-  - basophil
-  - platelet
+  Kelas yang dikenali dalam dataset ini antara lain:
+- Boot
+- Sandal
+- Shoe
 
-Model dilatih menggunakan dataset citra mikroskopik sel darah yang telah melalui preprocessing seperti augmentasi, normalisasi, dan penskalaan ulang untuk meningkatkan performa serta generalisasi.
+  Model dilatih menggunakan dataset citra alas kaki yang telah melalui preprocessing seperti augmentasi, normalisasi, dan penskalaan ulang untuk meningkatkan performa serta generalisasi.
 
 ---
 
@@ -30,11 +26,13 @@ Model dilatih menggunakan dataset citra mikroskopik sel darah yang telah melalui
 
 ## 🧠 Fitur Utama
 
-1. Dataset berisi lebih dari 1000 gambar sel darah yang telah dilabeli
+1. Dataset berisi lebih dari 10000 gambar alas kaki yang telah dilabeli
 2. Pembagian data 80% untuk training, 10% untuk validasi, dan 10% untuk testing
 3. Arsitektur CNN kustom dengan lapisan Conv2D, MaxPooling, Flatten, dan Dense
 4. Augmentasi data (rotasi, zoom, pergeseran, dll) untuk meningkatkan generalisasi model
 5. Model diekspor dalam tiga format untuk berbagai kebutuhan deployment
+
+---
 
 ## 📊 Detail Pelatihan
 
